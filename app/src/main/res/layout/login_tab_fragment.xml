@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="288dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="4dp"
+        android:text="Login using existing account:"
+        android:textColor="#34A8CC"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="312dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="90dp"
+        android:text="Welcome to EBRGY"
+        android:textColor="#34A8CC"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editLoginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/textbox_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView38"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/editLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/textbox_background"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editLoginEmail"
+        app:layout_constraintWidth_percent=".8" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/roboto"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editLoginPassword"
+        app:layout_constraintVertical_bias="0.046"
+        app:layout_constraintWidth_percent=".8" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="42dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="36dp"
+        android:background="#FFFFFF"
+        android:text="Email"
+        android:textAlignment="center"
+        android:textColor="#34A8CC"
+        app:layout_constraintBottom_toBottomOf="@+id/editLoginEmail"
+        app:layout_constraintEnd_toEndOf="@+id/editLoginEmail"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editLoginEmail" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="69dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="36dp"
+        android:background="#FFFFFF"
+        android:text="Password"
+        android:textAlignment="center"
+        android:textColor="#34A8CC"
+        app:layout_constraintBottom_toBottomOf="@+id/editLoginPassword"
+        app:layout_constraintEnd_toEndOf="@+id/editLoginEmail"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editLoginPassword" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

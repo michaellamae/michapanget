@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">EBrgy</string>
+    
+    <string-array name="marital_status">
+        <item>Single</item>
+        <item>Widowed</item>
+        <item>Married</item>
+        <item>Separated</item>
+    </string-array>
+
+    <string-array name="document_type">
+        <item>Barangay Clearance</item>
+        <item>Business Permit</item>
+        <item>Barangay Certificate</item>
+        <item>Cedula</item>
+        <item>Barangay ID</item>
+    </string-array>
+
+    <string-array name="document_purpose">
+        <item>Purpose 1</item>
+        <item>Purpose 2</item>
+        <item>Purpose 3</item>
+    </string-array>
+
+    <string-array name="id_type">
+        <item>National ID</item>
+        <item>Passport</item>
+        <item>UMID</item>
+        <item>SSS</item>
+        <item>License</item>
+        <item>Postal ID</item>
+        <item>Barangay ID</item>
+    </string-array>
+
+</resources>

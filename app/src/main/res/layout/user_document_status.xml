@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="28dp"
+        android:fontFamily="@font/roboto"
+        android:text="DOCUMENT"
+        android:textColor="#8B75F6"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_back8"
+        android:layout_width="29dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/back_arrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/id_upload" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button_view_id"
+                android:layout_width="0dp"
+                android:layout_height="23dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_background2"
+                android:text="VIEW"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textview_doc_purpose"
+                app:layout_constraintWidth_percent=".2" />
+
+            <ImageView
+                android:id="@+id/icon_verification2"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/icon_status" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="0dp"
+                android:layout_height="27dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="32dp"
+                android:text="Requested Document Status"
+                android:textColor="#8B75F6"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/icon_verification2" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="20dp"
+                android:text="Requestor: "
+                android:textColor="#31AACC"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+            <TextView
+                android:id="@+id/textview_name"
+                android:layout_width="0dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="32dp"
+                android:paddingLeft="10dp"
+                android:text="Name"
+                android:textAlignment="textEnd"
+                android:textColor="#707070"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView19"
+                app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="10dp"
+                android:text="Address: "
+                android:textColor="#31AACC"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+            <TextView
+                android:id="@+id/textview_address"
+                android:layout_width="0dp"
+                android:layout_height="23dp"
+                android:layout_marginRight="32dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Address"
+                android:textAlignment="textEnd"
+                android:textColor="#707070"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView20"
+                app:layout_constraintTop_toBottomOf="@+id/textview_name" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="10dp"
+                android:text="Residence Owner: "
+                android:textColor="#31AACC"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+            <TextView
+                android:id="@+id/textview_residence_owner"
+                android:layout_width="0dp"
+                android:layout_height="23dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="Residence Owner"
+                android:textAlignment="textEnd"
+                android:textColor="#707070"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView21"
+                app:layout_constraintTop_toBottomOf="@+id/textview_address" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="10dp"
+                android:text="Document Type: "
+                android:textColor="#31AACC"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+            <TextView
+                android:id="@+id/textview_doc_type"
+                android:layout_width="0dp"
+                android:layout_height="23dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="Document Type"
+                android:textAlignment="textEnd"
+                android:textColor="#707070"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView22"
+                app:layout_constraintTop_toBottomOf="@+id/textview_residence_owner" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="10dp"
+                android:text="Document Purpose: "
+                android:textColor="#31AACC"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+            <TextView
+                android:id="@+id/textview_doc_purpose"
+                android:layout_width="0dp"
+                android:layout_height="23dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="Document Purpose"
+                android:textAlignment="textEnd"
+                android:textColor="#707070"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView23"
+                app:layout_constraintTop_toBottomOf="@+id/textview_doc_type" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="10dp"
+                android:text="Identification: "
+                android:textColor="#31AACC"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+            <TextView
+                android:id="@+id/textview_identification"
+                android:layout_width="0dp"
+                android:layout_height="23dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="ID Type"
+                android:textAlignment="textEnd"
+                android:textColor="#707070"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toStartOf="@+id/button_view_id"
+                app:layout_constraintStart_toEndOf="@+id/textView24"
+                app:layout_constraintTop_toBottomOf="@+id/textview_doc_purpose" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="10dp"
+                android:text="Sitio Clearamce : "
+                android:textColor="#31AACC"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+            <TextView
+                android:id="@+id/textview_clearance_status"
+                android:layout_width="0dp"
+                android:layout_height="23dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Uploaded"
+                android:textAlignment="textEnd"
+                android:textColor="#707070"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toStartOf="@+id/button_view_clearance"
+                app:layout_constraintStart_toEndOf="@+id/textView25"
+                app:layout_constraintTop_toBottomOf="@+id/textview_identification" />
+
+            <Button
+                android:id="@+id/button_view_clearance"
+                android:layout_width="0dp"
+                android:layout_height="23dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_background2"
+                android:text="VIEW"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_view_id"
+                app:layout_constraintWidth_percent=".2" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="10dp"
+                android:text="Approval Status: "
+                android:textColor="#31AACC"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+            <TextView
+                android:id="@+id/textview_approval_status"
+                android:layout_width="0dp"
+                android:layout_height="23dp"
+                android:paddingLeft="10dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginTop="10dp"
+                android:text="PENDING"
+                android:textAlignment="textEnd"
+                android:textColor="#707070"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView25"
+                app:layout_constraintTop_toBottomOf="@+id/textview_clearance_status" />
+
+            <Button
+                android:id="@+id/button_proceed"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_background"
+                android:text="CLOSE"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textview_approval_status"
+                app:layout_constraintVertical_bias="0.474"
+                app:layout_constraintWidth_percent=".4" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

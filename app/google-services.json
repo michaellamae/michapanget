@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "285447001903",
+    "project_id": "ebrgy-mobile-app",
+    "storage_bucket": "ebrgy-mobile-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285447001903:android:d58e0aef303d064fc3f3da",
+        "android_client_info": {
+          "package_name": "com.threesevenpee.ebrgy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285447001903-a3hc4kq7nkqo0s4l95esscp1ctcib3et.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAzm41xPoQoevw75dqUuo2_9RgZX4wJk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285447001903-a3hc4kq7nkqo0s4l95esscp1ctcib3et.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

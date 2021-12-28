@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/drawable/button_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/drawable/button_background2.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/drawable/button_request.xml" value="0.2703125" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/drawable/id_placeholder.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/drawable/id_upload.xml" value="1.825" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/drawable/login_background.xml" value="0.484819734345351" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/drawable/login_tab_fragment.xml" value="0.2703125" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/drawable/profile_placeholder.xml" value="0.2703125" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/drawable/request_rectangle.xml" value="0.2703125" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/drawable/text_bg_blue.xml" value="0.2703125" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/drawable/textbox_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/activity_account_management.xml" value="0.2" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/activity_add_request.xml" value="0.2" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/activity_application.xml" value="0.264" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/activity_application_form.xml" value="0.264" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/activity_login.xml" value="0.152" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/activity_main.xml" value="0.136" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/activity_signup.xml" value="0.264" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/activity_splashscreen.xml" value="0.152" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/activity_verification.xml" value="0.136" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/activity_verification_id.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/item_request_list.xml" value="0.264" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/login_tab_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/request_list.xml" value="0.264" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/signup_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/signup_tab_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/user_account_management.xml" value="0.2" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/user_add_request.xml" value="0.2" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/user_document_clearance.xml" value="0.176" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/user_document_request.xml" value="0.176" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/user_document_status.xml" value="0.2" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/user_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/user_transactions.xml" value="0.25" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/user_verification.xml" value="0.264" />
+        <entry key="..\:/Users/Dada/Documents/EBrgy/app/src/main/res/layout/user_verification_proof.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
